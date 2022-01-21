@@ -21,9 +21,6 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "xxxx.settings")
 
 
 
-application = get_wsgi_application()
-application = DjangoWhiteNoise(application)
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
